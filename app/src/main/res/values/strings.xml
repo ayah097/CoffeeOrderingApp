@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" >
+    <string name="app_name">Just Java</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Thank you Message for Order Summary [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank you!</string>
+
+    <!--
+    Name for the order summary. It will shown in the format of "Name: Amy"
+    where Amy is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_name">Name: <xliff:g id="cName" example="Amy">%s</xliff:g></string>
+
+    <!--
+    Add Chocolate for the order summary. It will shown in the format of "Name: Amy"
+    where Amy is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_chocolate">Add Chocolate?: <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+    <!--
+    Add Chocolate for the order summary. It will shown in the format of "Name: Amy"
+    where Amy is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_whippedCream">Add Whipped Cream?: <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+    <!--
+    Add Chocolate for the order summary. It will shown in the format of "Name: Amy"
+    where Amy is the user's name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+
+    <!--
+   Add Chocolate for the order summary. It will shown in the format of "Name: Amy"
+   where Amy is the user's name. [INT LIMIT=NONE] -->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="10">%s</xliff:g></string>
+
+
+</resources>
